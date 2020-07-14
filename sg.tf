@@ -1,4 +1,4 @@
-resource "aws_security_group" "sg1" {
+resource "aws_security_group" "sg" {
   name = "allow_ssh"
   vpc_id = "${aws_vpc.main.id}"
 
